@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
  <meta charset="UTF-8">
+ <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
  <title>My Website - About</title>
 </head>
 <body>
  <h1>Callay Jarrett</h1>
  <p>I am a 3rd year Electronics and Computer Science major. I am a practising stoic and a recovering procrastinator</p>
+ <img src= "{{url_for('static', filename='pinterest.jpg')}}" alt="mood pic"/>
 </body>
 </html>
